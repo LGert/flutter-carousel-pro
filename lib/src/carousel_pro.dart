@@ -94,6 +94,7 @@ class Carousel extends StatefulWidget {
   //On image change event, passes previous image index and current image index as arguments
   final void Function(int, int) onImageChange;
 
+  // The index of the first image that will be showed
   int initialIndex;
 
   Carousel({
